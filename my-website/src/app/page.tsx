@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../../components/Button";
 
 export default function Home() {
   return (
@@ -47,8 +48,21 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <a
+            className="rounded border-black/[0.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#842727] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Go to Google
+          </a>
+          <Button href="https://google.com">Dashboard</Button>
+          
         </div>
       </main>
+
+
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
